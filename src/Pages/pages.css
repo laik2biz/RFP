@@ -1,0 +1,482 @@
+.ErrorPage {
+  background-image: url("https://media.tenor.com/tj3hXwExBx8AAAAM/lala-uh-oh.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+  width: 220px;
+}
+
+.home {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  background-image: linear-gradient(black, navy);
+}
+
+.about {
+  background-image: url("https://allwork.space/wp-content/uploads/2021/06/AWS-Articles-T-15.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.login {
+  background-image: url("https://allwork.space/wp-content/uploads/2021/02/Alex-Future-of-Work-Template-Articles_72705670c2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.info {
+  image-rendering: auto;
+  /*   image-rendering: crisp-edges;
+ */
+  background-image: url("https://www.workdesign.com/wp-content/uploads/2020/07/Future-of-Work-12905-e1594907773871.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.reservations {
+  background-image: url("https://allwork.space/wp-content/uploads/2021/02/Alex-Future-of-Work-Template-Articles_72705670c2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.booking {
+  background-image: url("http://arraydisplay.co.uk/wp-content/uploads/2020/07/GE_UKRC2017_V7_001_edited.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100%;
+min-width: 1024px; */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.calendaricon {
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.form-header {
+  color: navy;
+  font-size: 50px;
+  text-align: center;
+}
+
+.auto-text-display {
+  background-image: linear-gradient(orange, blue);
+  width: 750px;
+  border: 15px solid blue;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-1 {
+  width: 750px;
+  border: 15px solid orange;
+  padding: 2rem 0;
+  margin: 20px;
+  border-radius: 25px;
+  color: white;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-title {
+  color: black;
+}
+
+.res-msg {
+  font-size: larger;
+}
+
+.flash {
+  animation: blinker 2s step-start infinite;
+  font-size: larger;
+  color: white;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background: #000;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+}
+
+.feature-2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.information {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+  margin-left: 500px;
+}
+
+.information-2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-left: 500px;
+}
+
+.infolist {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-left: 500px;
+}
+
+.listitems {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin-left: 500px;
+}
+
+#cf3 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  margin-left: 300px;
+}
+
+.shadow {
+  -webkit-box-shadow: 5px 5px 5px #aaa;
+  -moz-box-shadow: 5px 5px 5px #aaa;
+  box-shadow: 5px 5px 5px #aaa;
+  margin-bottom: 10px;
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#cf3 img {
+  position: absolute;
+  left: 0;
+}
+
+#cf3 img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+.content {
+  position: relative;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.container {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 20vh;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2vw;
+  text-transform: uppercase;
+}
+
+/* Home page css */
+
+.showcase {
+  margin: 0;
+  padding: 0;
+  background: url("img/Untitled-1.png") no-repeat center/cover;
+  width: 100%;
+  height: 110vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.title-h2 {
+  color: white;
+  font-size: 25px;
+}
+
+.title-small {
+  font-size: 20px;
+  color: white;
+}
+
+.section {
+  padding: 2rem 0;
+  color: white;
+}
+
+.section-head {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.lead {
+  font-size: 1.3rem;
+}
+
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+  height: 50%;
+}
+
+section#employees {
+  background: url("img/employees.jpeg") no-repeat bottom/cover;
+  padding: 10rem 0;
+  height: 150%;
+}
+
+.emp-title {
+  font-size: 50px;
+  color: #03a9f4;
+}
+
+section#research {
+  background: url("img/research.jpeg") no-repeat bottom/cover;
+  padding: 10rem 0;
+  height: 100%;
+}
+
+.evi-title {
+  font-size: 50px;
+}
+
+section#entertainment {
+  background: url("img/section-bg.jpg") no-repeat bottom/cover;
+  padding: 10rem 0;
+  height: 185%;
+}
+
+footer .footer-bottom {
+  background: black;
+  padding: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#userstory {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  margin-left: 420px;
+}
+
+#userstory img {
+  position: absolute;
+  left: 0;
+  width: 550%;
+}
+
+#userstory img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+.mission {
+  text-align: left;
+}
+
+.mission-text {
+  text-align: left;
+}
+
+.hand-emoji {
+  font-size: 40px;
+  animation: blinker 2s step-start infinite;
+}
+
+.parafeed {
+  color: white;
+}
